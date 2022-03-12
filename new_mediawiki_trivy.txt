@@ -1,0 +1,94 @@
+2022-03-12T11:43:54.716+0100	[34mINFO[0m	Detected OS: debian
+2022-03-12T11:43:54.716+0100	[34mINFO[0m	Detecting Debian vulnerabilities...
+2022-03-12T11:43:54.852+0100	[34mINFO[0m	Number of language-specific files: 1
+2022-03-12T11:43:54.853+0100	[34mINFO[0m	Detecting composer vulnerabilities...
+
+mediawiki:latest (debian 11.2)
+==============================
+Total: 17 (UNKNOWN: 0, LOW: 1, MEDIUM: 9, HIGH: 7, CRITICAL: 0)
+
++----------------+------------------+----------+-------------------+---------------+--------------------------------------------+
+|    LIBRARY     | VULNERABILITY ID | SEVERITY | INSTALLED VERSION | FIXED VERSION |                   TITLE                    |
++----------------+------------------+----------+-------------------+---------------+--------------------------------------------+
+| linux-libc-dev | CVE-2022-0330    | HIGH     | 5.10.92-1         | 5.10.92-2     | kernel: possible privileges                |
+|                |                  |          |                   |               | escalation due to missing TLB flush        |
+|                |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2022-0330       |
++                +------------------+          +                   +               +--------------------------------------------+
+|                | CVE-2022-0435    |          |                   |               | kernel: remote stack                       |
+|                |                  |          |                   |               | overflow via kernel panic                  |
+|                |                  |          |                   |               | on systems using TIPC may...               |
+|                |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2022-0435       |
++                +------------------+          +                   +---------------+--------------------------------------------+
+|                | CVE-2022-0492    |          |                   | 5.10.103-1    | kernel: cgroups v1                         |
+|                |                  |          |                   |               | release_agent feature may                  |
+|                |                  |          |                   |               | allow privilege escalation                 |
+|                |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2022-0492       |
++                +------------------+          +                   +---------------+--------------------------------------------+
+|                | CVE-2022-0516    |          |                   | 5.10.92-2     | kernel: missing check in ioctl             |
+|                |                  |          |                   |               | allows kernel memory read/write            |
+|                |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2022-0516       |
++                +------------------+          +                   +               +--------------------------------------------+
+|                | CVE-2022-0847    |          |                   |               | kernel: improper initialization            |
+|                |                  |          |                   |               | of the "flags" member                      |
+|                |                  |          |                   |               | of the new pipe_buffer                     |
+|                |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2022-0847       |
++                +------------------+          +                   +               +--------------------------------------------+
+|                | CVE-2022-22942   |          |                   |               | kernel: failing usercopy allows            |
+|                |                  |          |                   |               | for use-after-free exploitation            |
+|                |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2022-22942      |
++                +------------------+          +                   +---------------+--------------------------------------------+
+|                | CVE-2022-25636   |          |                   | 5.10.103-1    | kernel: heap out of bounds                 |
+|                |                  |          |                   |               | write in nf_dup_netdev.c                   |
+|                |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2022-25636      |
++                +------------------+----------+                   +               +--------------------------------------------+
+|                | CVE-2020-36310   | MEDIUM   |                   |               | kernel: infinite loop in                   |
+|                |                  |          |                   |               | set_memory_region_test in                  |
+|                |                  |          |                   |               | arch/x86/kvm/svm/svm.c for                 |
+|                |                  |          |                   |               | certain nested page faults...              |
+|                |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2020-36310      |
++                +------------------+          +                   +---------------+--------------------------------------------+
+|                | CVE-2021-43976   |          |                   | 5.10.92-2     | kernel: mwifiex_usb_recv() in              |
+|                |                  |          |                   |               | drivers/net/wireless/marvell/mwifiex/usb.c |
+|                |                  |          |                   |               | allows an attacker to                      |
+|                |                  |          |                   |               | cause DoS via crafted...                   |
+|                |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2021-43976      |
++                +------------------+          +                   +---------------+--------------------------------------------+
+|                | CVE-2022-0001    |          |                   | 5.10.103-1    | hw: cpu: intel: Branch                     |
+|                |                  |          |                   |               | History Injection (BHI)                    |
+|                |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2022-0001       |
++                +------------------+          +                   +               +--------------------------------------------+
+|                | CVE-2022-0002    |          |                   |               | hw: cpu: intel: Intra-Mode BTI             |
+|                |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2022-0002       |
++                +------------------+          +                   +               +--------------------------------------------+
+|                | CVE-2022-0487    |          |                   |               | kernel: Use after                          |
+|                |                  |          |                   |               | free in moxart_remove                      |
+|                |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2022-0487       |
++                +------------------+          +                   +               +--------------------------------------------+
+|                | CVE-2022-0617    |          |                   |               | kernel: Null pointer dereference           |
+|                |                  |          |                   |               | in udf_expand_file_adinicbdue()            |
+|                |                  |          |                   |               | during writeback                           |
+|                |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2022-0617       |
++                +------------------+          +                   +---------------+--------------------------------------------+
+|                | CVE-2022-24959   |          |                   | 5.10.92-2     | kernel: memory leak in                     |
+|                |                  |          |                   |               | yam_siocdevprivate() in                    |
+|                |                  |          |                   |               | drivers/net/hamradio/yam.c                 |
+|                |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2022-24959      |
++                +------------------+          +                   +               +--------------------------------------------+
+|                | CVE-2022-25258   |          |                   |               | kernel: security issues in the             |
+|                |                  |          |                   |               | OS descriptor handling section             |
+|                |                  |          |                   |               | of composite_setup function...             |
+|                |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2022-25258      |
++                +------------------+          +                   +               +--------------------------------------------+
+|                | CVE-2022-25375   |          |                   |               | kernel: information disclosure in          |
+|                |                  |          |                   |               | drivers/usb/gadget/function/rndis.c        |
+|                |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2022-25375      |
++                +------------------+----------+                   +               +--------------------------------------------+
+|                | CVE-2022-24448   | LOW      |                   |               | kernel: nfs_atomic_open() returns          |
+|                |                  |          |                   |               | uninitialized data instead of ENOTDIR      |
+|                |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2022-24448      |
++----------------+------------------+----------+-------------------+---------------+--------------------------------------------+
+
+var/www/html/tests/phpunit/data/composer/composer.lock (composer)
+=================================================================
+Total: 0 (UNKNOWN: 0, LOW: 0, MEDIUM: 0, HIGH: 0, CRITICAL: 0)
+
