@@ -1,0 +1,131 @@
+2022-03-12T11:36:11.217+0100	[34mINFO[0m	Detected OS: alpine
+2022-03-12T11:36:11.218+0100	[34mINFO[0m	Detecting Alpine vulnerabilities...
+2022-03-12T11:36:11.228+0100	[34mINFO[0m	Number of language-specific files: 1
+2022-03-12T11:36:11.228+0100	[34mINFO[0m	Detecting jar vulnerabilities...
+
+sonarqube (alpine 3.14.3)
+=========================
+Total: 10 (UNKNOWN: 0, LOW: 0, MEDIUM: 4, HIGH: 1, CRITICAL: 5)
+
++---------+------------------+----------+-------------------+---------------+---------------------------------------+
+| LIBRARY | VULNERABILITY ID | SEVERITY | INSTALLED VERSION | FIXED VERSION |                 TITLE                 |
++---------+------------------+----------+-------------------+---------------+---------------------------------------+
+| expat   | CVE-2022-23852   | CRITICAL | 2.4.3-r0          | 2.4.4-r0      | expat: Integer overflow               |
+|         |                  |          |                   |               | in function XML_GetBuffer             |
+|         |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2022-23852 |
++         +------------------+          +                   +               +---------------------------------------+
+|         | CVE-2022-23990   |          |                   |               | expat: integer overflow               |
+|         |                  |          |                   |               | in the doProlog function              |
+|         |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2022-23990 |
++         +------------------+          +                   +---------------+---------------------------------------+
+|         | CVE-2022-25235   |          |                   | 2.4.5-r0      | expat: Malformed 2- and               |
+|         |                  |          |                   |               | 3-byte UTF-8 sequences can            |
+|         |                  |          |                   |               | lead to arbitrary code...             |
+|         |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2022-25235 |
++         +------------------+          +                   +               +---------------------------------------+
+|         | CVE-2022-25236   |          |                   |               | expat: Namespace-separator characters |
+|         |                  |          |                   |               | in "xmlns[:prefix]" attribute         |
+|         |                  |          |                   |               | values can lead to arbitrary code...  |
+|         |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2022-25236 |
++         +------------------+          +                   +               +---------------------------------------+
+|         | CVE-2022-25315   |          |                   |               | expat: Integer overflow               |
+|         |                  |          |                   |               | in storeRawNames()                    |
+|         |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2022-25315 |
++         +------------------+----------+                   +               +---------------------------------------+
+|         | CVE-2022-25314   | HIGH     |                   |               | expat: integer overflow               |
+|         |                  |          |                   |               | in copyString()                       |
+|         |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2022-25314 |
++         +------------------+----------+                   +               +---------------------------------------+
+|         | CVE-2022-25313   | MEDIUM   |                   |               | expat: stack exhaustion               |
+|         |                  |          |                   |               | in doctype parsing                    |
+|         |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2022-25313 |
++---------+------------------+          +-------------------+---------------+---------------------------------------+
+| libuuid | CVE-2021-3995    |          | 2.37.2-r0         | 2.37.3-r0     | util-linux: Unauthorized unmount      |
+|         |                  |          |                   |               | of FUSE filesystems belonging         |
+|         |                  |          |                   |               | to users with similar uid...          |
+|         |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2021-3995  |
++         +------------------+          +                   +               +---------------------------------------+
+|         | CVE-2021-3996    |          |                   |               | util-linux: Unauthorized unmount      |
+|         |                  |          |                   |               | of filesystems in libmount            |
+|         |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2021-3996  |
++         +------------------+          +                   +---------------+---------------------------------------+
+|         | CVE-2022-0563    |          |                   | 2.37.4-r0     | util-linux: partial disclosure        |
+|         |                  |          |                   |               | of arbitrary files in chfn            |
+|         |                  |          |                   |               | and chsh when compiled...             |
+|         |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2022-0563  |
++---------+------------------+----------+-------------------+---------------+---------------------------------------+
+
+Java (jar)
+==========
+Total: 17 (UNKNOWN: 3, LOW: 1, MEDIUM: 5, HIGH: 3, CRITICAL: 5)
+
++-----------------------------------+---------------------+----------+-------------------+----------------------------+----------------------------------------------+
+|              LIBRARY              |  VULNERABILITY ID   | SEVERITY | INSTALLED VERSION |       FIXED VERSION        |                    TITLE                     |
++-----------------------------------+---------------------+----------+-------------------+----------------------------+----------------------------------------------+
+| com.google.guava:guava            | CVE-2020-8908       | LOW      | 28.2-jre          |                       30.0 | guava: local information                     |
+|                                   |                     |          |                   |                            | disclosure via temporary directory           |
+|                                   |                     |          |                   |                            | created with unsafe permissions              |
+|                                   |                     |          |                   |                            | -->avd.aquasec.com/nvd/cve-2020-8908         |
++-----------------------------------+---------------------+----------+-------------------+----------------------------+----------------------------------------------+
+| com.google.protobuf:protobuf-java | CVE-2021-22569      | MEDIUM   | 3.15.8            | 3.16.1, 3.18.2, 3.19.2     | protobuf-java: potential DoS in the          |
+|                                   |                     |          |                   |                            | parsing procedure for binary data            |
+|                                   |                     |          |                   |                            | -->avd.aquasec.com/nvd/cve-2021-22569        |
++                                   +---------------------+----------+                   +                            +----------------------------------------------+
+|                                   | GMS-2022-5          | UNKNOWN  |                   |                            | A potential Denial of Service                |
+|                                   |                     |          |                   |                            | issue in protobuf-java                       |
++-----------------------------------+---------------------+----------+-------------------+----------------------------+----------------------------------------------+
+| com.h2database:h2                 | CVE-2021-23463      | CRITICAL | 1.4.199           | 2.0.202                    | h2database: XXE                              |
+|                                   |                     |          |                   |                            | injection vulnerability                      |
+|                                   |                     |          |                   |                            | -->avd.aquasec.com/nvd/cve-2021-23463        |
++                                   +---------------------+          +                   +----------------------------+----------------------------------------------+
+|                                   | CVE-2021-42392      |          |                   | 2.0.206                    | h2: Remote Code Execution in Console         |
+|                                   |                     |          |                   |                            | -->avd.aquasec.com/nvd/cve-2021-42392        |
++                                   +---------------------+          +                   +----------------------------+----------------------------------------------+
+|                                   | CVE-2022-23221      |          |                   | 2.1.210                    | h2: Loading of custom classes                |
+|                                   |                     |          |                   |                            | from remote servers through JNDI             |
+|                                   |                     |          |                   |                            | -->avd.aquasec.com/nvd/cve-2022-23221        |
++                                   +---------------------+----------+                   +----------------------------+----------------------------------------------+
+|                                   | GMS-2022-7          | UNKNOWN  |                   | 2.0.206                    | Improper Neutralization of                   |
+|                                   |                     |          |                   |                            | Special Elements used in an OS               |
+|                                   |                     |          |                   |                            | Command ('OS Command...                      |
++-----------------------------------+---------------------+----------+-------------------+----------------------------+----------------------------------------------+
+| com.hazelcast:hazelcast           | GHSA-v57x-gxfj-484q | CRITICAL | 4.2.2             | 4.2.4, 4.1.8, 4.0.5, 5.0.2 | Security Advisory for "Log4Shell"            |
+|                                   |                     |          |                   |                            | -->github.com/advisories/GHSA-v57x-gxfj-484q |
++                                   +---------------------+----------+                   +----------------------------+----------------------------------------------+
+|                                   | CVE-2022-0265       | HIGH     |                   |                        5.1 | XML External Entity                          |
+|                                   |                     |          |                   |                            | Reference in Hazelcast                       |
+|                                   |                     |          |                   |                            | -->avd.aquasec.com/nvd/cve-2022-0265         |
++                                   +---------------------+----------+                   +----------------------------+----------------------------------------------+
+|                                   | GMS-2022-33         | UNKNOWN  |                   | 4.0.5                      | Improper Neutralization of                   |
+|                                   |                     |          |                   |                            | Special Elements used in an OS               |
+|                                   |                     |          |                   |                            | Command ('OS Command...                      |
++-----------------------------------+---------------------+----------+-------------------+----------------------------+----------------------------------------------+
+| io.netty:netty-codec              | CVE-2021-37136      | HIGH     | 4.1.66.Final      | 4.1.68.Final               | netty-codec: Bzip2Decoder                    |
+|                                   |                     |          |                   |                            | doesn't allow setting size                   |
+|                                   |                     |          |                   |                            | restrictions for decompressed data           |
+|                                   |                     |          |                   |                            | -->avd.aquasec.com/nvd/cve-2021-37136        |
++                                   +---------------------+          +                   +                            +----------------------------------------------+
+|                                   | CVE-2021-37137      |          |                   |                            | netty-codec: SnappyFrameDecoder              |
+|                                   |                     |          |                   |                            | doesn't restrict chunk length and            |
+|                                   |                     |          |                   |                            | may buffer skippable chunks in...            |
+|                                   |                     |          |                   |                            | -->avd.aquasec.com/nvd/cve-2021-37137        |
++-----------------------------------+---------------------+----------+                   +----------------------------+----------------------------------------------+
+| io.netty:netty-codec-http         | CVE-2021-43797      | MEDIUM   |                   | 4.1.71.Final               | netty: control chars in header names         |
+|                                   |                     |          |                   |                            | may lead to HTTP request smuggling...        |
+|                                   |                     |          |                   |                            | -->avd.aquasec.com/nvd/cve-2021-43797        |
++-----------------------------------+---------------------+          +-------------------+----------------------------+----------------------------------------------+
+| org.elasticsearch:elasticsearch   | CVE-2022-23708      |          | 7.16.3            | 7.17.1                     | Elasticsearch privilege                      |
+|                                   |                     |          |                   |                            | escalation issue                             |
+|                                   |                     |          |                   |                            | -->avd.aquasec.com/nvd/cve-2022-23708        |
++-----------------------------------+---------------------+          +-------------------+----------------------------+----------------------------------------------+
+| org.nanohttpd:nanohttpd           | CVE-2020-13697      |          | 2.3.1             |                            | XXS in NanoHTTPD                             |
+|                                   |                     |          |                   |                            | -->avd.aquasec.com/nvd/cve-2020-13697        |
++-----------------------------------+---------------------+----------+-------------------+----------------------------+----------------------------------------------+
+| org.postgresql:postgresql         | CVE-2022-21724      | CRITICAL | 42.3.1            | 42.2.25, 42.3.2            | jdbc-postgresql: Unchecked                   |
+|                                   |                     |          |                   |                            | Class Instantiation when                     |
+|                                   |                     |          |                   |                            | providing Plugin Classes                     |
+|                                   |                     |          |                   |                            | -->avd.aquasec.com/nvd/cve-2022-21724        |
++                                   +---------------------+----------+                   +----------------------------+----------------------------------------------+
+|                                   | GHSA-673j-qm5f-xpv8 | MEDIUM   |                   | 42.3.3                     | Arbitrary File Write Vulnerability           |
+|                                   |                     |          |                   |                            | -->github.com/advisories/GHSA-673j-qm5f-xpv8 |
++-----------------------------------+---------------------+----------+-------------------+----------------------------+----------------------------------------------+
