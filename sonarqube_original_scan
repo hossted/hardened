@@ -1,0 +1,342 @@
+
+Testing sonarqube:latest...
+
+✗ Low severity vulnerability found in util-linux/libuuid
+  Description: CVE-2021-3996
+  Info: https://snyk.io/vuln/SNYK-ALPINE314-UTILLINUX-2393738
+  Introduced through: util-linux/libuuid@2.37.2-r0, fontconfig/fontconfig@2.13.1-r4
+  From: util-linux/libuuid@2.37.2-r0
+  From: fontconfig/fontconfig@2.13.1-r4 > util-linux/libuuid@2.37.2-r0
+  Image layer: Introduced by your base image (alpine:3.14.3)
+  Fixed in: 2.37.3-r0
+
+✗ Low severity vulnerability found in util-linux/libuuid
+  Description: CVE-2021-3995
+  Info: https://snyk.io/vuln/SNYK-ALPINE314-UTILLINUX-2393742
+  Introduced through: util-linux/libuuid@2.37.2-r0, fontconfig/fontconfig@2.13.1-r4
+  From: util-linux/libuuid@2.37.2-r0
+  From: fontconfig/fontconfig@2.13.1-r4 > util-linux/libuuid@2.37.2-r0
+  Image layer: Introduced by your base image (alpine:3.14.3)
+  Fixed in: 2.37.3-r0
+
+✗ Medium severity vulnerability found in util-linux/libuuid
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-ALPINE314-UTILLINUX-2401804
+  Introduced through: util-linux/libuuid@2.37.2-r0, fontconfig/fontconfig@2.13.1-r4
+  From: util-linux/libuuid@2.37.2-r0
+  From: fontconfig/fontconfig@2.13.1-r4 > util-linux/libuuid@2.37.2-r0
+  Image layer: Introduced by your base image (alpine:3.14.3)
+  Fixed in: 2.37.4-r0
+
+✗ Medium severity vulnerability found in expat/expat
+  Description: Resource Exhaustion
+  Info: https://snyk.io/vuln/SNYK-ALPINE314-EXPAT-2407754
+  Introduced through: expat/expat@2.4.3-r0, fontconfig/fontconfig@2.13.1-r4
+  From: expat/expat@2.4.3-r0
+  From: fontconfig/fontconfig@2.13.1-r4 > expat/expat@2.4.3-r0
+  Image layer: Introduced by your base image (alpine:3.14.3)
+  Fixed in: 2.4.5-r0
+
+✗ High severity vulnerability found in expat/expat
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-ALPINE314-EXPAT-2407744
+  Introduced through: expat/expat@2.4.3-r0, fontconfig/fontconfig@2.13.1-r4
+  From: expat/expat@2.4.3-r0
+  From: fontconfig/fontconfig@2.13.1-r4 > expat/expat@2.4.3-r0
+  Image layer: Introduced by your base image (alpine:3.14.3)
+  Fixed in: 2.4.5-r0
+
+✗ Critical severity vulnerability found in expat/expat
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-ALPINE314-EXPAT-2393732
+  Introduced through: expat/expat@2.4.3-r0, fontconfig/fontconfig@2.13.1-r4
+  From: expat/expat@2.4.3-r0
+  From: fontconfig/fontconfig@2.13.1-r4 > expat/expat@2.4.3-r0
+  Image layer: Introduced by your base image (alpine:3.14.3)
+  Fixed in: 2.4.4-r0
+
+✗ Critical severity vulnerability found in expat/expat
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-ALPINE314-EXPAT-2393734
+  Introduced through: expat/expat@2.4.3-r0, fontconfig/fontconfig@2.13.1-r4
+  From: expat/expat@2.4.3-r0
+  From: fontconfig/fontconfig@2.13.1-r4 > expat/expat@2.4.3-r0
+  Image layer: Introduced by your base image (alpine:3.14.3)
+  Fixed in: 2.4.4-r0
+
+✗ Critical severity vulnerability found in expat/expat
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-ALPINE314-EXPAT-2407748
+  Introduced through: expat/expat@2.4.3-r0, fontconfig/fontconfig@2.13.1-r4
+  From: expat/expat@2.4.3-r0
+  From: fontconfig/fontconfig@2.13.1-r4 > expat/expat@2.4.3-r0
+  Image layer: Introduced by your base image (alpine:3.14.3)
+  Fixed in: 2.4.5-r0
+
+✗ Critical severity vulnerability found in expat/expat
+  Description: Improper Encoding or Escaping of Output
+  Info: https://snyk.io/vuln/SNYK-ALPINE314-EXPAT-2407750
+  Introduced through: expat/expat@2.4.3-r0, fontconfig/fontconfig@2.13.1-r4
+  From: expat/expat@2.4.3-r0
+  From: fontconfig/fontconfig@2.13.1-r4 > expat/expat@2.4.3-r0
+  Image layer: Introduced by your base image (alpine:3.14.3)
+  Fixed in: 2.4.5-r0
+
+✗ Critical severity vulnerability found in expat/expat
+  Description: Exposure of Resource to Wrong Sphere
+  Info: https://snyk.io/vuln/SNYK-ALPINE314-EXPAT-2407755
+  Introduced through: expat/expat@2.4.3-r0, fontconfig/fontconfig@2.13.1-r4
+  From: expat/expat@2.4.3-r0
+  From: fontconfig/fontconfig@2.13.1-r4 > expat/expat@2.4.3-r0
+  Image layer: Introduced by your base image (alpine:3.14.3)
+  Fixed in: 2.4.5-r0
+
+
+
+Organization:      iwdiwd
+Package manager:   apk
+Project name:      docker-image|sonarqube
+Docker image:      sonarqube:latest
+Platform:          linux/amd64
+Base image:        alpine:3.14.3
+Licenses:          enabled
+
+Tested 54 dependencies for known issues, found 10 issues.
+
+According to our scan, you are currently using the most secure version of the selected base image
+
+-------------------------------------------------------
+
+Testing sonarqube:latest...
+
+Tested 28 dependencies for known issues, found 1 issue.
+
+
+Issues to fix by upgrading:
+
+  Upgrade com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.10.4 to com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.11.4 to fix
+  ✗ Denial of Service (DoS) [High Severity][https://snyk.io/vuln/SNYK-JAVA-COMFASTERXMLJACKSONDATAFORMAT-1047329] in com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.10.4
+    introduced by com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.10.4
+
+
+
+Organization:      iwdiwd
+Package manager:   maven
+Target file:       /opt/sonarqube/elasticsearch/lib
+Project name:      sonarqube:latest:/opt/sonarqube/elasticsearch/lib
+Docker image:      sonarqube:latest
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing sonarqube:latest...
+
+Organization:      iwdiwd
+Package manager:   maven
+Target file:       /opt/sonarqube/elasticsearch/modules/analysis-common
+Project name:      sonarqube:latest:/opt/sonarqube/elasticsearch/modules/analysis-common
+Docker image:      sonarqube:latest
+Licenses:          enabled
+
+✔ Tested sonarqube:latest for known issues, no vulnerable paths found.
+
+-------------------------------------------------------
+
+Testing sonarqube:latest...
+
+Organization:      iwdiwd
+Package manager:   maven
+Target file:       /opt/sonarqube/elasticsearch/modules/lang-painless
+Project name:      sonarqube:latest:/opt/sonarqube/elasticsearch/modules/lang-painless
+Docker image:      sonarqube:latest
+Licenses:          enabled
+
+✔ Tested 6 dependencies for known issues, no vulnerable paths found.
+
+-------------------------------------------------------
+
+Testing sonarqube:latest...
+
+Organization:      iwdiwd
+Package manager:   maven
+Target file:       /opt/sonarqube/elasticsearch/modules/lang-painless/spi
+Project name:      sonarqube:latest:/opt/sonarqube/elasticsearch/modules/lang-painless/spi
+Docker image:      sonarqube:latest
+Licenses:          enabled
+
+✔ Tested sonarqube:latest for known issues, no vulnerable paths found.
+
+-------------------------------------------------------
+
+Testing sonarqube:latest...
+
+Organization:      iwdiwd
+Package manager:   maven
+Target file:       /opt/sonarqube/elasticsearch/modules/parent-join
+Project name:      sonarqube:latest:/opt/sonarqube/elasticsearch/modules/parent-join
+Docker image:      sonarqube:latest
+Licenses:          enabled
+
+✔ Tested sonarqube:latest for known issues, no vulnerable paths found.
+
+-------------------------------------------------------
+
+Testing sonarqube:latest...
+
+Tested 8 dependencies for known issues, found 4 issues.
+
+
+Issues to fix by upgrading:
+
+  Upgrade io.netty:netty-codec@4.1.66.Final to io.netty:netty-codec@4.1.68.Final to fix
+  ✗ Denial of Service (DoS) [High Severity][https://snyk.io/vuln/SNYK-JAVA-IONETTY-1584063] in io.netty:netty-codec@4.1.66.Final
+    introduced by io.netty:netty-codec@4.1.66.Final
+  ✗ Denial of Service (DoS) [High Severity][https://snyk.io/vuln/SNYK-JAVA-IONETTY-1584064] in io.netty:netty-codec@4.1.66.Final
+    introduced by io.netty:netty-codec@4.1.66.Final
+
+  Upgrade io.netty:netty-codec-http@4.1.66.Final to io.netty:netty-codec-http@4.1.71.Final to fix
+  ✗ HTTP Request Smuggling [Medium Severity][https://snyk.io/vuln/SNYK-JAVA-IONETTY-2314893] in io.netty:netty-codec-http@4.1.66.Final
+    introduced by io.netty:netty-codec-http@4.1.66.Final
+
+
+Issues with no direct upgrade or patch:
+  ✗ Improper Certificate Validation [Medium Severity][https://snyk.io/vuln/SNYK-JAVA-IONETTY-1042268] in io.netty:netty-handler@4.1.66.Final
+    introduced by io.netty:netty-handler@4.1.66.Final
+  No upgrade or patch available
+
+
+
+Organization:      iwdiwd
+Package manager:   maven
+Target file:       /opt/sonarqube/elasticsearch/modules/transport-netty4
+Project name:      sonarqube:latest:/opt/sonarqube/elasticsearch/modules/transport-netty4
+Docker image:      sonarqube:latest
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing sonarqube:latest...
+
+Tested 107 dependencies for known issues, found 1 issue.
+
+
+Issues with no direct upgrade or patch:
+  ✗ Denial of Service (DoS) [High Severity][https://snyk.io/vuln/SNYK-JAVA-COMGOOGLEPROTOBUF-2331703] in com.google.protobuf:protobuf-java@3.15.8
+    introduced by org.sonarsource.python:sonar-python-plugin@3.9.0.9230 > com.google.protobuf:protobuf-java@3.17.3 and 1 other path(s)
+  This issue was fixed in versions: 3.19.2, 3.18.2, 3.16.1
+
+
+
+Organization:      iwdiwd
+Package manager:   maven
+Target file:       /opt/sonarqube/lib/extensions
+Project name:      sonarqube:latest:/opt/sonarqube/lib/extensions
+Docker image:      sonarqube:latest
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing sonarqube:latest...
+
+Tested 1 dependencies for known issues, found 3 issues.
+
+
+Issues to fix by upgrading:
+
+  Upgrade com.h2database:h2@1.4.199 to com.h2database:h2@2.1.210 to fix
+  ✗ Remote Code Execution (RCE) [High Severity][https://snyk.io/vuln/SNYK-JAVA-COMH2DATABASE-2331071] in com.h2database:h2@1.4.199
+    introduced by com.h2database:h2@1.4.199
+  ✗ XML External Entity (XXE) Injection [High Severity][https://snyk.io/vuln/SNYK-JAVA-COMH2DATABASE-1769238] in com.h2database:h2@1.4.199
+    introduced by com.h2database:h2@1.4.199
+  ✗ Remote Code Execution (RCE) [Critical Severity][https://snyk.io/vuln/SNYK-JAVA-COMH2DATABASE-2348247] in com.h2database:h2@1.4.199
+    introduced by com.h2database:h2@1.4.199
+
+
+
+Organization:      iwdiwd
+Package manager:   maven
+Target file:       /opt/sonarqube/lib/jdbc/h2
+Project name:      sonarqube:latest:/opt/sonarqube/lib/jdbc/h2
+Docker image:      sonarqube:latest
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing sonarqube:latest...
+
+Organization:      iwdiwd
+Package manager:   maven
+Target file:       /opt/sonarqube/lib/jdbc/mssql
+Project name:      sonarqube:latest:/opt/sonarqube/lib/jdbc/mssql
+Docker image:      sonarqube:latest
+Licenses:          enabled
+
+✔ Tested 2 dependencies for known issues, no vulnerable paths found.
+
+-------------------------------------------------------
+
+Testing sonarqube:latest...
+
+Tested 1 dependencies for known issues, found 2 issues.
+
+
+Issues to fix by upgrading:
+
+  Upgrade org.postgresql:postgresql@42.3.1 to org.postgresql:postgresql@42.3.3 to fix
+  ✗ Arbitrary Code Injection (new) [Medium Severity][https://snyk.io/vuln/SNYK-JAVA-ORGPOSTGRESQL-2401816] in org.postgresql:postgresql@42.3.1
+    introduced by org.postgresql:postgresql@42.3.1
+  ✗ Remote Code Execution (RCE) [High Severity][https://snyk.io/vuln/SNYK-JAVA-ORGPOSTGRESQL-2390459] in org.postgresql:postgresql@42.3.1
+    introduced by org.postgresql:postgresql@42.3.1
+
+
+
+Organization:      iwdiwd
+Package manager:   maven
+Target file:       /opt/sonarqube/lib/jdbc/postgresql
+Project name:      sonarqube:latest:/opt/sonarqube/lib/jdbc/postgresql
+Docker image:      sonarqube:latest
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing sonarqube:latest...
+
+Organization:      iwdiwd
+Package manager:   maven
+Target file:       /opt/sonarqube/lib/jsw
+Project name:      sonarqube:latest:/opt/sonarqube/lib/jsw
+Docker image:      sonarqube:latest
+Licenses:          enabled
+
+✔ Tested 1 dependencies for known issues, no vulnerable paths found.
+
+-------------------------------------------------------
+
+Testing sonarqube:latest...
+
+Organization:      iwdiwd
+Package manager:   maven
+Target file:       /opt/sonarqube/lib/scanner
+Project name:      sonarqube:latest:/opt/sonarqube/lib/scanner
+Docker image:      sonarqube:latest
+Licenses:          enabled
+
+✔ Tested sonarqube:latest for known issues, no vulnerable paths found.
+
+-------------------------------------------------------
+
+Testing sonarqube:latest...
+
+Organization:      iwdiwd
+Package manager:   maven
+Target file:       /opt/sonarqube/lib
+Project name:      sonarqube:latest:/opt/sonarqube/lib
+Docker image:      sonarqube:latest
+Licenses:          enabled
+
+✔ Tested sonarqube:latest for known issues, no vulnerable paths found.
+
+
+Tested 14 projects, 6 contained vulnerable paths.
+
+
