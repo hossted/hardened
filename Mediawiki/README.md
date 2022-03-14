@@ -8,6 +8,14 @@
 
 Mediawiki Download and run :
 
-$ sudo docker pull iwdiwd/mediawikipatched:latest
+#Pull the patched mediawiki image : 
+
+```$ sudo docker pull iwdiwd/mediawikipatched:latest```
+
+#Pull the patched php version
+
 ```$ sudo docker pull iwdiwd/newphp:latest```
-$ sudo docker run -dit -p 8080:80 iwdiwd/mediawikipatched:latest
+
+#Docker run the mediawiki patched image
+
+```$ sudo docker run -dit -p 8080:80 iwdiwd/mediawikipatched:latest```
