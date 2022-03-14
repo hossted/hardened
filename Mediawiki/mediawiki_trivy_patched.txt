@@ -1,0 +1,17 @@
+2022-03-14T12:51:07.304+0100	[34mINFO[0m	Detected OS: debian
+2022-03-14T12:51:07.304+0100	[33mWARN[0m	This OS version is not on the EOL list: debian bookworm/sid
+2022-03-14T12:51:07.304+0100	[34mINFO[0m	Detecting Debian vulnerabilities...
+2022-03-14T12:51:07.305+0100	[34mINFO[0m	Number of language-specific files: 1
+2022-03-14T12:51:07.305+0100	[34mINFO[0m	Detecting composer vulnerabilities...
+2022-03-14T12:51:07.306+0100	[33mWARN[0m	This OS version is no longer supported by the distribution: debian bookworm/sid
+2022-03-14T12:51:07.306+0100	[33mWARN[0m	The vulnerability detection may be insufficient because security updates are not provided
+
+iwdiwd/mediawikipatched:latest (debian bookworm/sid)
+====================================================
+Total: 0 (UNKNOWN: 0, LOW: 0, MEDIUM: 0, HIGH: 0, CRITICAL: 0)
+
+
+var/www/html/tests/phpunit/data/composer/composer.lock (composer)
+=================================================================
+Total: 0 (UNKNOWN: 0, LOW: 0, MEDIUM: 0, HIGH: 0, CRITICAL: 0)
+
