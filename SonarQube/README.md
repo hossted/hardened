@@ -5,3 +5,9 @@
   - trivy_sonarqube.txt : is the "trivy" output for the official image
   
   - trivy_fixed_sonarqube.txt : is the "trivy" output for the hardened image 
+
+SonarQube Download and run :
+
+#Run the Hardened SonarQube image :
+
+```$ sudo docker run docker.io/iwdiwd/harden```
