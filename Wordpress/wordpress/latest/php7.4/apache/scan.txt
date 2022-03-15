@@ -1,0 +1,1149 @@
+
+Testing wordpressharden:latest...
+
+✗ Low severity vulnerability found in util-linux/libuuid1
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-UTILLINUX-2401084
+  Introduced through: util-linux/libuuid1@2.37.3-1+b1, e2fsprogs@1.46.5-2, util-linux/util-linux@2.37.3-1+b1, apache2@2.4.52-1, ghostscript@9.55.0~dfsg-3, util-linux/mount@2.37.3-1+b1, glib2.0/libglib2.0-0@2.70.4-1, util-linux/bsdutils@1:2.37.3-1+b1, util-linux/libsmartcols1@2.37.3-1+b1
+  From: util-linux/libuuid1@2.37.3-1+b1
+  From: e2fsprogs@1.46.5-2 > util-linux/libuuid1@2.37.3-1+b1
+  From: util-linux/util-linux@2.37.3-1+b1 > util-linux/libuuid1@2.37.3-1+b1
+  and 15 more...
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-TIFF-405270
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, ghostscript@9.55.0~dfsg-3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > tiff/libtiff5@4.3.0-6
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > tiff/libtiff5@4.3.0-6
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Divide By Zero
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-TIFF-405348
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, ghostscript@9.55.0~dfsg-3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > tiff/libtiff5@4.3.0-6
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > tiff/libtiff5@4.3.0-6
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-TIFF-405393
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, ghostscript@9.55.0~dfsg-3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > tiff/libtiff5@4.3.0-6
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > tiff/libtiff5@4.3.0-6
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-TIFF-405480
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, ghostscript@9.55.0~dfsg-3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > tiff/libtiff5@4.3.0-6
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > tiff/libtiff5@4.3.0-6
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-TIFF-405861
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, ghostscript@9.55.0~dfsg-3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > tiff/libtiff5@4.3.0-6
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > tiff/libtiff5@4.3.0-6
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Missing Release of Resource after Effective Lifetime
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-TIFF-406160
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, ghostscript@9.55.0~dfsg-3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > tiff/libtiff5@4.3.0-6
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > tiff/libtiff5@4.3.0-6
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in tar
+  Description: CVE-2005-2541
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-TAR-312332
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > tar@1.34+dfsg-1
+
+✗ Low severity vulnerability found in systemd/libsystemd0
+  Description: Authentication Bypass
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-SYSTEMD-1291057
+  Introduced through: apt@2.4.0, util-linux/bsdutils@1:2.37.3-1+b1, util-linux/util-linux@2.37.3-1+b1, apache2@2.4.52-1, ghostscript@9.55.0~dfsg-3, systemd/libudev1@250.3-2
+  From: apt@2.4.0 > systemd/libsystemd0@250.3-2
+  From: util-linux/bsdutils@1:2.37.3-1+b1 > systemd/libsystemd0@250.3-2
+  From: util-linux/util-linux@2.37.3-1+b1 > systemd/libsystemd0@250.3-2
+  and 6 more...
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in systemd/libsystemd0
+  Description: Link Following
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-SYSTEMD-305145
+  Introduced through: apt@2.4.0, util-linux/bsdutils@1:2.37.3-1+b1, util-linux/util-linux@2.37.3-1+b1, apache2@2.4.52-1, ghostscript@9.55.0~dfsg-3, systemd/libudev1@250.3-2
+  From: apt@2.4.0 > systemd/libsystemd0@250.3-2
+  From: util-linux/bsdutils@1:2.37.3-1+b1 > systemd/libsystemd0@250.3-2
+  From: util-linux/util-linux@2.37.3-1+b1 > systemd/libsystemd0@250.3-2
+  and 6 more...
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in shadow/passwd
+  Description: Time-of-check Time-of-use (TOCTOU)
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-SHADOW-306211
+  Introduced through: shadow/passwd@1:4.11.1+dfsg1-1, adduser@3.118, shadow/login@1:4.11.1+dfsg1-1
+  From: shadow/passwd@1:4.11.1+dfsg1-1
+  From: adduser@3.118 > shadow/passwd@1:4.11.1+dfsg1-1
+  From: shadow/login@1:4.11.1+dfsg1-1
+
+✗ Low severity vulnerability found in shadow/passwd
+  Description: Access Restriction Bypass
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-SHADOW-306251
+  Introduced through: shadow/passwd@1:4.11.1+dfsg1-1, adduser@3.118, shadow/login@1:4.11.1+dfsg1-1
+  From: shadow/passwd@1:4.11.1+dfsg1-1
+  From: adduser@3.118 > shadow/passwd@1:4.11.1+dfsg1-1
+  From: shadow/login@1:4.11.1+dfsg1-1
+
+✗ Low severity vulnerability found in shadow/passwd
+  Description: Incorrect Permission Assignment for Critical Resource
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-SHADOW-539863
+  Introduced through: shadow/passwd@1:4.11.1+dfsg1-1, adduser@3.118, shadow/login@1:4.11.1+dfsg1-1
+  From: shadow/passwd@1:4.11.1+dfsg1-1
+  From: adduser@3.118 > shadow/passwd@1:4.11.1+dfsg1-1
+  From: shadow/login@1:4.11.1+dfsg1-1
+
+✗ Low severity vulnerability found in re2c
+  Description: Uncontrolled Recursion
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-RE2C-567854
+  Introduced through: re2c@3.0-1
+  From: re2c@3.0-1
+
+✗ Low severity vulnerability found in perl/perl-modules-5.34
+  Description: Link Following
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-PERL-327794
+  Introduced through: apache2@2.4.52-1, autoconf@2.71-2, meta-common-packages@meta
+  From: apache2@2.4.52-1 > mime-support@3.66 > mailcap@3.70+nmu1 > perl@5.34.0-3 > perl/perl-modules-5.34@5.34.0-3
+  From: apache2@2.4.52-1 > mime-support@3.66 > mailcap@3.70+nmu1 > perl@5.34.0-3 > perl/libperl5.34@5.34.0-3 > perl/perl-modules-5.34@5.34.0-3
+  From: apache2@2.4.52-1 > mime-support@3.66 > mailcap@3.70+nmu1 > perl@5.34.0-3 > perl/libperl5.34@5.34.0-3
+  and 3 more...
+
+✗ Low severity vulnerability found in pcre3/libpcre3
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-PCRE3-345327
+  Introduced through: pcre3/libpcre3@2:8.39-13, glib2.0/libglib2.0-0@2.70.4-1, grep@3.7-1, apache2@2.4.52-1
+  From: pcre3/libpcre3@2:8.39-13
+  From: glib2.0/libglib2.0-0@2.70.4-1 > pcre3/libpcre3@2:8.39-13
+  From: grep@3.7-1 > pcre3/libpcre3@2:8.39-13
+  and 1 more...
+
+✗ Low severity vulnerability found in pcre3/libpcre3
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-PCRE3-345359
+  Introduced through: pcre3/libpcre3@2:8.39-13, glib2.0/libglib2.0-0@2.70.4-1, grep@3.7-1, apache2@2.4.52-1
+  From: pcre3/libpcre3@2:8.39-13
+  From: glib2.0/libglib2.0-0@2.70.4-1 > pcre3/libpcre3@2:8.39-13
+  From: grep@3.7-1 > pcre3/libpcre3@2:8.39-13
+  and 1 more...
+
+✗ Low severity vulnerability found in pcre3/libpcre3
+  Description: Uncontrolled Recursion
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-PCRE3-345503
+  Introduced through: pcre3/libpcre3@2:8.39-13, glib2.0/libglib2.0-0@2.70.4-1, grep@3.7-1, apache2@2.4.52-1
+  From: pcre3/libpcre3@2:8.39-13
+  From: glib2.0/libglib2.0-0@2.70.4-1 > pcre3/libpcre3@2:8.39-13
+  From: grep@3.7-1 > pcre3/libpcre3@2:8.39-13
+  and 1 more...
+
+✗ Low severity vulnerability found in pcre3/libpcre3
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-PCRE3-345531
+  Introduced through: pcre3/libpcre3@2:8.39-13, glib2.0/libglib2.0-0@2.70.4-1, grep@3.7-1, apache2@2.4.52-1
+  From: pcre3/libpcre3@2:8.39-13
+  From: glib2.0/libglib2.0-0@2.70.4-1 > pcre3/libpcre3@2:8.39-13
+  From: grep@3.7-1 > pcre3/libpcre3@2:8.39-13
+  and 1 more...
+
+✗ Low severity vulnerability found in pcre3/libpcre3
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-PCRE3-572365
+  Introduced through: pcre3/libpcre3@2:8.39-13, glib2.0/libglib2.0-0@2.70.4-1, grep@3.7-1, apache2@2.4.52-1
+  From: pcre3/libpcre3@2:8.39-13
+  From: glib2.0/libglib2.0-0@2.70.4-1 > pcre3/libpcre3@2:8.39-13
+  From: grep@3.7-1 > pcre3/libpcre3@2:8.39-13
+  and 1 more...
+
+✗ Low severity vulnerability found in patch
+  Description: Release of Invalid Pointer or Reference
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-PATCH-2324791
+  Introduced through: dpkg/dpkg-dev@1.21.2
+  From: dpkg/dpkg-dev@1.21.2 > patch@2.7.6-7
+
+✗ Low severity vulnerability found in patch
+  Description: Double Free
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-PATCH-303860
+  Introduced through: dpkg/dpkg-dev@1.21.2
+  From: dpkg/dpkg-dev@1.21.2 > patch@2.7.6-7
+
+✗ Low severity vulnerability found in patch
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-PATCH-303879
+  Introduced through: dpkg/dpkg-dev@1.21.2
+  From: dpkg/dpkg-dev@1.21.2 > patch@2.7.6-7
+
+✗ Low severity vulnerability found in patch
+  Description: Directory Traversal
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-PATCH-303895
+  Introduced through: dpkg/dpkg-dev@1.21.2
+  From: dpkg/dpkg-dev@1.21.2 > patch@2.7.6-7
+
+✗ Low severity vulnerability found in openssl/libssl1.1
+  Description: Cryptographic Issues
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENSSL-374710
+  Introduced through: openssl/libssl1.1@1.1.1m-1, libzip/libzip4@1.7.3-1, apache2@2.4.52-1, ca-certificates@20211016
+  From: openssl/libssl1.1@1.1.1m-1
+  From: libzip/libzip4@1.7.3-1 > openssl/libssl1.1@1.1.1m-1
+  From: apache2@2.4.52-1 > apache2/apache2-bin@2.4.52-1 > openssl/libssl1.1@1.1.1m-1
+  and 7 more...
+
+✗ Low severity vulnerability found in openssl/libssl1.1
+  Description: Cryptographic Issues
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENSSL-374997
+  Introduced through: openssl/libssl1.1@1.1.1m-1, libzip/libzip4@1.7.3-1, apache2@2.4.52-1, ca-certificates@20211016
+  From: openssl/libssl1.1@1.1.1m-1
+  From: libzip/libzip4@1.7.3-1 > openssl/libssl1.1@1.1.1m-1
+  From: apache2@2.4.52-1 > apache2/apache2-bin@2.4.52-1 > openssl/libssl1.1@1.1.1m-1
+  and 7 more...
+
+✗ Low severity vulnerability found in openldap/libldap-2.5-0
+  Description: Improper Initialization
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENLDAP-304608
+  Introduced through: openldap/libldap-2.5-0@2.5.11+dfsg-1, apache2@2.4.52-1
+  From: openldap/libldap-2.5-0@2.5.11+dfsg-1
+  From: apache2@2.4.52-1 > apache2/apache2-bin@2.4.52-1 > apr-util/libaprutil1-ldap@1.6.1-5+b1 > openldap/libldap-2.5-0@2.5.11+dfsg-1
+  From: apache2@2.4.52-1 > apache2/apache2-bin@2.4.52-1 > curl/libcurl4@7.82.0-1+b1 > openldap/libldap-2.5-0@2.5.11+dfsg-1
+  and 1 more...
+
+✗ Low severity vulnerability found in openldap/libldap-2.5-0
+  Description: Cryptographic Issues
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENLDAP-304655
+  Introduced through: openldap/libldap-2.5-0@2.5.11+dfsg-1, apache2@2.4.52-1
+  From: openldap/libldap-2.5-0@2.5.11+dfsg-1
+  From: apache2@2.4.52-1 > apache2/apache2-bin@2.4.52-1 > apr-util/libaprutil1-ldap@1.6.1-5+b1 > openldap/libldap-2.5-0@2.5.11+dfsg-1
+  From: apache2@2.4.52-1 > apache2/apache2-bin@2.4.52-1 > curl/libcurl4@7.82.0-1+b1 > openldap/libldap-2.5-0@2.5.11+dfsg-1
+  and 1 more...
+
+✗ Low severity vulnerability found in openldap/libldap-2.5-0
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENLDAP-304668
+  Introduced through: openldap/libldap-2.5-0@2.5.11+dfsg-1, apache2@2.4.52-1
+  From: openldap/libldap-2.5-0@2.5.11+dfsg-1
+  From: apache2@2.4.52-1 > apache2/apache2-bin@2.4.52-1 > apr-util/libaprutil1-ldap@1.6.1-5+b1 > openldap/libldap-2.5-0@2.5.11+dfsg-1
+  From: apache2@2.4.52-1 > apache2/apache2-bin@2.4.52-1 > curl/libcurl4@7.82.0-1+b1 > openldap/libldap-2.5-0@2.5.11+dfsg-1
+  and 1 more...
+
+✗ Low severity vulnerability found in openldap/libldap-2.5-0
+  Description: Improper Certificate Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENLDAP-584925
+  Introduced through: openldap/libldap-2.5-0@2.5.11+dfsg-1, apache2@2.4.52-1
+  From: openldap/libldap-2.5-0@2.5.11+dfsg-1
+  From: apache2@2.4.52-1 > apache2/apache2-bin@2.4.52-1 > apr-util/libaprutil1-ldap@1.6.1-5+b1 > openldap/libldap-2.5-0@2.5.11+dfsg-1
+  From: apache2@2.4.52-1 > apache2/apache2-bin@2.4.52-1 > curl/libcurl4@7.82.0-1+b1 > openldap/libldap-2.5-0@2.5.11+dfsg-1
+  and 1 more...
+
+✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
+  Description: Allocation of Resources Without Limits or Throttling
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENJPEG2-336260
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, ghostscript@9.55.0~dfsg-3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > openjpeg2/libopenjp2-7@2.4.0-6
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > openjpeg2/libopenjp2-7@2.4.0-6
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENJPEG2-345765
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, ghostscript@9.55.0~dfsg-3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > openjpeg2/libopenjp2-7@2.4.0-6
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > openjpeg2/libopenjp2-7@2.4.0-6
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENJPEG2-345832
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, ghostscript@9.55.0~dfsg-3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > openjpeg2/libopenjp2-7@2.4.0-6
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > openjpeg2/libopenjp2-7@2.4.0-6
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENJPEG2-345859
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, ghostscript@9.55.0~dfsg-3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > openjpeg2/libopenjp2-7@2.4.0-6
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > openjpeg2/libopenjp2-7@2.4.0-6
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENJPEG2-345874
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, ghostscript@9.55.0~dfsg-3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > openjpeg2/libopenjp2-7@2.4.0-6
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > openjpeg2/libopenjp2-7@2.4.0-6
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
+  Description: Divide By Zero
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENJPEG2-345887
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, ghostscript@9.55.0~dfsg-3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > openjpeg2/libopenjp2-7@2.4.0-6
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > openjpeg2/libopenjp2-7@2.4.0-6
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENJPEG2-345946
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, ghostscript@9.55.0~dfsg-3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > openjpeg2/libopenjp2-7@2.4.0-6
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > openjpeg2/libopenjp2-7@2.4.0-6
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENJPEG2-345953
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, ghostscript@9.55.0~dfsg-3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > openjpeg2/libopenjp2-7@2.4.0-6
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > openjpeg2/libopenjp2-7@2.4.0-6
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENJPEG2-345960
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, ghostscript@9.55.0~dfsg-3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > openjpeg2/libopenjp2-7@2.4.0-6
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > openjpeg2/libopenjp2-7@2.4.0-6
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENJPEG2-345970
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, ghostscript@9.55.0~dfsg-3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > openjpeg2/libopenjp2-7@2.4.0-6
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > openjpeg2/libopenjp2-7@2.4.0-6
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENJPEG2-345982
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, ghostscript@9.55.0~dfsg-3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > openjpeg2/libopenjp2-7@2.4.0-6
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > openjpeg2/libopenjp2-7@2.4.0-6
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENJPEG2-345990
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, ghostscript@9.55.0~dfsg-3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > openjpeg2/libopenjp2-7@2.4.0-6
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > openjpeg2/libopenjp2-7@2.4.0-6
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENJPEG2-345999
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, ghostscript@9.55.0~dfsg-3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > openjpeg2/libopenjp2-7@2.4.0-6
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > openjpeg2/libopenjp2-7@2.4.0-6
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENJPEG2-451277
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, ghostscript@9.55.0~dfsg-3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > openjpeg2/libopenjp2-7@2.4.0-6
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > openjpeg2/libopenjp2-7@2.4.0-6
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in ncurses/libtinfo6
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-NCURSES-1655740
+  Introduced through: ncurses/libtinfo6@6.3-2, bash@5.1-6, ncurses/ncurses-bin@6.3-2, readline/libreadline8@8.1.2-1, util-linux/util-linux@2.37.3-1+b1, apache2@2.4.52-1, ncurses/ncurses-base@6.3-2
+  From: ncurses/libtinfo6@6.3-2
+  From: bash@5.1-6 > ncurses/libtinfo6@6.3-2
+  From: ncurses/ncurses-bin@6.3-2 > ncurses/libtinfo6@6.3-2
+  and 9 more...
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in m4
+  Description: CVE-2008-1688
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-M4-277769
+  Introduced through: autoconf@2.71-2
+  From: autoconf@2.71-2 > m4@1.4.18-5
+
+✗ Low severity vulnerability found in m4
+  Description: CVE-2008-1687
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-M4-277773
+  Introduced through: autoconf@2.71-2
+  From: autoconf@2.71-2 > m4@1.4.18-5
+
+✗ Low severity vulnerability found in libwebp/libwebp7
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-LIBWEBP-277885
+  Introduced through: libwebp/libwebp7@1.2.2-2, imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, ghostscript@9.55.0~dfsg-3
+  From: libwebp/libwebp7@1.2.2-2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > libwebp/libwebp7@1.2.2-2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > libwebp/libwebpdemux2@1.2.2-2 > libwebp/libwebp7@1.2.2-2
+  and 4 more...
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in libpng1.6/libpng16-16
+  Description: CVE-2021-4214
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-LIBPNG16-2363921
+  Introduced through: libpng1.6/libpng16-16@1.6.37-3, imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, ghostscript@9.55.0~dfsg-3
+  From: libpng1.6/libpng16-16@1.6.37-3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > libpng1.6/libpng16-16@1.6.37-3
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > libpng1.6/libpng16-16@1.6.37-3
+  and 1 more...
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in libpng1.6/libpng16-16
+  Description: Memory Leak
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-LIBPNG16-296469
+  Introduced through: libpng1.6/libpng16-16@1.6.37-3, imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, ghostscript@9.55.0~dfsg-3
+  From: libpng1.6/libpng16-16@1.6.37-3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > libpng1.6/libpng16-16@1.6.37-3
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > libpng1.6/libpng16-16@1.6.37-3
+  and 1 more...
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in libgcrypt20
+  Description: Use of a Broken or Risky Cryptographic Algorithm
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-LIBGCRYPT20-391903
+  Introduced through: apt@2.4.0, apache2@2.4.52-1
+  From: apt@2.4.0 > apt/libapt-pkg6.0@2.4.0 > libgcrypt20@1.9.4-5
+  From: apt@2.4.0 > gnupg2/gpgv@2.2.27-3 > libgcrypt20@1.9.4-5
+  From: apache2@2.4.52-1 > procps/procps@2:3.3.17-7+b1 > procps/libprocps8@2:3.3.17-7+b1 > systemd/libsystemd0@250.3-2 > libgcrypt20@1.9.4-5
+
+✗ Low severity vulnerability found in krb5/libk5crypto3
+  Description: CVE-2004-0971
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-KRB5-395884
+  Introduced through: krb5/libk5crypto3@1.19.2-2, apache2@2.4.52-1, krb5/libkrb5-3@1.19.2-2, krb5/libgssapi-krb5-2@1.19.2-2, ghostscript@9.55.0~dfsg-3, gcc-defaults/g++@4:11.2.0-2, meta-common-packages@meta
+  From: krb5/libk5crypto3@1.19.2-2
+  From: apache2@2.4.52-1 > apache2/apache2-bin@2.4.52-1 > curl/libcurl4@7.82.0-1+b1 > krb5/libgssapi-krb5-2@1.19.2-2 > krb5/libk5crypto3@1.19.2-2
+  From: apache2@2.4.52-1 > apache2/apache2-bin@2.4.52-1 > curl/libcurl4@7.82.0-1+b1 > krb5/libgssapi-krb5-2@1.19.2-2 > krb5/libkrb5-3@1.19.2-2 > krb5/libk5crypto3@1.19.2-2
+  and 7 more...
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in krb5/libk5crypto3
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-KRB5-395958
+  Introduced through: krb5/libk5crypto3@1.19.2-2, apache2@2.4.52-1, krb5/libkrb5-3@1.19.2-2, krb5/libgssapi-krb5-2@1.19.2-2, ghostscript@9.55.0~dfsg-3, gcc-defaults/g++@4:11.2.0-2, meta-common-packages@meta
+  From: krb5/libk5crypto3@1.19.2-2
+  From: apache2@2.4.52-1 > apache2/apache2-bin@2.4.52-1 > curl/libcurl4@7.82.0-1+b1 > krb5/libgssapi-krb5-2@1.19.2-2 > krb5/libk5crypto3@1.19.2-2
+  From: apache2@2.4.52-1 > apache2/apache2-bin@2.4.52-1 > curl/libcurl4@7.82.0-1+b1 > krb5/libgssapi-krb5-2@1.19.2-2 > krb5/libkrb5-3@1.19.2-2 > krb5/libk5crypto3@1.19.2-2
+  and 7 more...
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in jbigkit/libjbig0
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-JBIGKIT-289893
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, ghostscript@9.55.0~dfsg-3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > jbigkit/libjbig0@2.1-3.1+b2
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > tiff/libtiff5@4.3.0-6 > jbigkit/libjbig0@2.1-3.1+b2
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in jansson/libjansson4
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-JANSSON-1264525
+  Introduced through: apache2@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-bin@2.4.52-1 > jansson/libjansson4@2.13.1-1.1
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Divide By Zero
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-IMAGEMAGICK-1247327
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  and 2 more...
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Resource Exhaustion
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-IMAGEMAGICK-400135
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  and 2 more...
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Missing Release of Resource after Effective Lifetime
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-IMAGEMAGICK-402741
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  and 2 more...
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-IMAGEMAGICK-402777
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  and 2 more...
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Missing Release of Resource after Effective Lifetime
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-IMAGEMAGICK-402795
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  and 2 more...
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-IMAGEMAGICK-402837
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  and 2 more...
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: CVE-2005-0406
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-IMAGEMAGICK-402880
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  and 2 more...
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Resource Management Errors
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-IMAGEMAGICK-402912
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  and 2 more...
+
+✗ Low severity vulnerability found in gnutls28/libgnutls30
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-GNUTLS28-340756
+  Introduced through: gnutls28/libgnutls30@3.7.3-4+b1, apt@2.4.0, apache2@2.4.52-1, ghostscript@9.55.0~dfsg-3
+  From: gnutls28/libgnutls30@3.7.3-4+b1
+  From: apt@2.4.0 > gnutls28/libgnutls30@3.7.3-4+b1
+  From: apache2@2.4.52-1 > apache2/apache2-bin@2.4.52-1 > openldap/libldap-2.4-2@2.4.59+dfsg-1+b1 > gnutls28/libgnutls30@3.7.3-4+b1
+  and 3 more...
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in glibc/libc-dev-bin
+  Description: Uncontrolled Recursion
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-GLIBC-338097
+  Introduced through: gcc-defaults/g++@4:11.2.0-2, glibc/libc6-dev@2.33-7, glibc/libc-bin@2.33-7, meta-common-packages@meta
+  From: gcc-defaults/g++@4:11.2.0-2 > gcc-11/g++-11@11.2.0-18 > gcc-11/libstdc++-11-dev@11.2.0-18 > glibc/libc6-dev@2.33-7 > glibc/libc-dev-bin@2.33-7
+  From: glibc/libc6-dev@2.33-7
+  From: gcc-defaults/g++@4:11.2.0-2 > gcc-11/g++-11@11.2.0-18 > gcc-11/libstdc++-11-dev@11.2.0-18 > glibc/libc6-dev@2.33-7
+  and 2 more...
+
+✗ Low severity vulnerability found in glibc/libc-dev-bin
+  Description: Uncontrolled Recursion
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-GLIBC-338174
+  Introduced through: gcc-defaults/g++@4:11.2.0-2, glibc/libc6-dev@2.33-7, glibc/libc-bin@2.33-7, meta-common-packages@meta
+  From: gcc-defaults/g++@4:11.2.0-2 > gcc-11/g++-11@11.2.0-18 > gcc-11/libstdc++-11-dev@11.2.0-18 > glibc/libc6-dev@2.33-7 > glibc/libc-dev-bin@2.33-7
+  From: glibc/libc6-dev@2.33-7
+  From: gcc-defaults/g++@4:11.2.0-2 > gcc-11/g++-11@11.2.0-18 > gcc-11/libstdc++-11-dev@11.2.0-18 > glibc/libc6-dev@2.33-7
+  and 2 more...
+
+✗ Low severity vulnerability found in glibc/libc-dev-bin
+  Description: Resource Management Errors
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-GLIBC-356736
+  Introduced through: gcc-defaults/g++@4:11.2.0-2, glibc/libc6-dev@2.33-7, glibc/libc-bin@2.33-7, meta-common-packages@meta
+  From: gcc-defaults/g++@4:11.2.0-2 > gcc-11/g++-11@11.2.0-18 > gcc-11/libstdc++-11-dev@11.2.0-18 > glibc/libc6-dev@2.33-7 > glibc/libc-dev-bin@2.33-7
+  From: glibc/libc6-dev@2.33-7
+  From: gcc-defaults/g++@4:11.2.0-2 > gcc-11/g++-11@11.2.0-18 > gcc-11/libstdc++-11-dev@11.2.0-18 > glibc/libc6-dev@2.33-7
+  and 2 more...
+
+✗ Low severity vulnerability found in glibc/libc-dev-bin
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-GLIBC-452130
+  Introduced through: gcc-defaults/g++@4:11.2.0-2, glibc/libc6-dev@2.33-7, glibc/libc-bin@2.33-7, meta-common-packages@meta
+  From: gcc-defaults/g++@4:11.2.0-2 > gcc-11/g++-11@11.2.0-18 > gcc-11/libstdc++-11-dev@11.2.0-18 > glibc/libc6-dev@2.33-7 > glibc/libc-dev-bin@2.33-7
+  From: glibc/libc6-dev@2.33-7
+  From: gcc-defaults/g++@4:11.2.0-2 > gcc-11/g++-11@11.2.0-18 > gcc-11/libstdc++-11-dev@11.2.0-18 > glibc/libc6-dev@2.33-7
+  and 2 more...
+
+✗ Low severity vulnerability found in glibc/libc-dev-bin
+  Description: Use of Insufficiently Random Values
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-GLIBC-452151
+  Introduced through: gcc-defaults/g++@4:11.2.0-2, glibc/libc6-dev@2.33-7, glibc/libc-bin@2.33-7, meta-common-packages@meta
+  From: gcc-defaults/g++@4:11.2.0-2 > gcc-11/g++-11@11.2.0-18 > gcc-11/libstdc++-11-dev@11.2.0-18 > glibc/libc6-dev@2.33-7 > glibc/libc-dev-bin@2.33-7
+  From: glibc/libc6-dev@2.33-7
+  From: gcc-defaults/g++@4:11.2.0-2 > gcc-11/g++-11@11.2.0-18 > gcc-11/libstdc++-11-dev@11.2.0-18 > glibc/libc6-dev@2.33-7
+  and 2 more...
+
+✗ Low severity vulnerability found in glibc/libc-dev-bin
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-GLIBC-452711
+  Introduced through: gcc-defaults/g++@4:11.2.0-2, glibc/libc6-dev@2.33-7, glibc/libc-bin@2.33-7, meta-common-packages@meta
+  From: gcc-defaults/g++@4:11.2.0-2 > gcc-11/g++-11@11.2.0-18 > gcc-11/libstdc++-11-dev@11.2.0-18 > glibc/libc6-dev@2.33-7 > glibc/libc-dev-bin@2.33-7
+  From: glibc/libc6-dev@2.33-7
+  From: gcc-defaults/g++@4:11.2.0-2 > gcc-11/g++-11@11.2.0-18 > gcc-11/libstdc++-11-dev@11.2.0-18 > glibc/libc6-dev@2.33-7
+  and 2 more...
+
+✗ Low severity vulnerability found in glibc/libc-dev-bin
+  Description: CVE-2019-1010023
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-GLIBC-452916
+  Introduced through: gcc-defaults/g++@4:11.2.0-2, glibc/libc6-dev@2.33-7, glibc/libc-bin@2.33-7, meta-common-packages@meta
+  From: gcc-defaults/g++@4:11.2.0-2 > gcc-11/g++-11@11.2.0-18 > gcc-11/libstdc++-11-dev@11.2.0-18 > glibc/libc6-dev@2.33-7 > glibc/libc-dev-bin@2.33-7
+  From: glibc/libc6-dev@2.33-7
+  From: gcc-defaults/g++@4:11.2.0-2 > gcc-11/g++-11@11.2.0-18 > gcc-11/libstdc++-11-dev@11.2.0-18 > glibc/libc6-dev@2.33-7
+  and 2 more...
+
+✗ Low severity vulnerability found in glib2.0/libglib2.0-0
+  Description: Cryptographic Issues
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-GLIB20-300111
+  Introduced through: glib2.0/libglib2.0-0@2.70.4-1, liblqr/liblqr-1-0@0.4.2-2.1, pkg-config@0.29.2-1
+  From: glib2.0/libglib2.0-0@2.70.4-1
+  From: liblqr/liblqr-1-0@0.4.2-2.1 > glib2.0/libglib2.0-0@2.70.4-1
+  From: pkg-config@0.29.2-1 > glib2.0/libglib2.0-0@2.70.4-1
+
+✗ Low severity vulnerability found in curl/libcurl4
+  Description: Improper Validation of Integrity Check Value
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-CURL-1322653
+  Introduced through: curl/libcurl4@7.82.0-1+b1, curl/curl@7.82.0-1+b1, apache2@2.4.52-1
+  From: curl/libcurl4@7.82.0-1+b1
+  From: curl/curl@7.82.0-1+b1 > curl/libcurl4@7.82.0-1+b1
+  From: apache2@2.4.52-1 > apache2/apache2-bin@2.4.52-1 > curl/libcurl4@7.82.0-1+b1
+  and 1 more...
+
+✗ Low severity vulnerability found in curl/libcurl4
+  Description: Insufficiently Protected Credentials
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-CURL-1322668
+  Introduced through: curl/libcurl4@7.82.0-1+b1, curl/curl@7.82.0-1+b1, apache2@2.4.52-1
+  From: curl/libcurl4@7.82.0-1+b1
+  From: curl/curl@7.82.0-1+b1 > curl/libcurl4@7.82.0-1+b1
+  From: apache2@2.4.52-1 > apache2/apache2-bin@2.4.52-1 > curl/libcurl4@7.82.0-1+b1
+  and 1 more...
+
+✗ Low severity vulnerability found in cups/libcups2
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-CUPS-364635
+  Introduced through: ghostscript@9.55.0~dfsg-3
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > cups/libcups2@2.4.1op1-2
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in coreutils
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-COREUTILS-317471
+  Introduced through: ghostscript@9.55.0~dfsg-3
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > fontconfig/libfontconfig1@2.13.1-4.4 > fontconfig/fontconfig-config@2.13.1-4.4 > ucf@3.0043 > coreutils@8.32-4.1
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in coreutils
+  Description: Race Condition
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-COREUTILS-317495
+  Introduced through: ghostscript@9.55.0~dfsg-3
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > fontconfig/libfontconfig1@2.13.1-4.4 > fontconfig/fontconfig-config@2.13.1-4.4 > ucf@3.0043 > coreutils@8.32-4.1
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-BINUTILS-1054599
+  Introduced through: dpkg/dpkg-dev@1.21.2, gcc-defaults/g++@4:11.2.0-2
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/binutils-common@2.38-3
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/libbinutils@2.38-3 > binutils/binutils-common@2.38-3
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/binutils-x86-64-linux-gnu@2.38-3 > binutils/binutils-common@2.38-3
+  and 8 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Uncontrolled Recursion
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-BINUTILS-1292161
+  Introduced through: dpkg/dpkg-dev@1.21.2, gcc-defaults/g++@4:11.2.0-2
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/binutils-common@2.38-3
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/libbinutils@2.38-3 > binutils/binutils-common@2.38-3
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/binutils-x86-64-linux-gnu@2.38-3 > binutils/binutils-common@2.38-3
+  and 8 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Uncontrolled Recursion
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-BINUTILS-2341556
+  Introduced through: dpkg/dpkg-dev@1.21.2, gcc-defaults/g++@4:11.2.0-2
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/binutils-common@2.38-3
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/libbinutils@2.38-3 > binutils/binutils-common@2.38-3
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/binutils-x86-64-linux-gnu@2.38-3 > binutils/binutils-common@2.38-3
+  and 8 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Allocation of Resources Without Limits or Throttling
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-BINUTILS-403702
+  Introduced through: dpkg/dpkg-dev@1.21.2, gcc-defaults/g++@4:11.2.0-2
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/binutils-common@2.38-3
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/libbinutils@2.38-3 > binutils/binutils-common@2.38-3
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/binutils-x86-64-linux-gnu@2.38-3 > binutils/binutils-common@2.38-3
+  and 8 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-BINUTILS-403874
+  Introduced through: dpkg/dpkg-dev@1.21.2, gcc-defaults/g++@4:11.2.0-2
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/binutils-common@2.38-3
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/libbinutils@2.38-3 > binutils/binutils-common@2.38-3
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/binutils-x86-64-linux-gnu@2.38-3 > binutils/binutils-common@2.38-3
+  and 8 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-BINUTILS-403910
+  Introduced through: dpkg/dpkg-dev@1.21.2, gcc-defaults/g++@4:11.2.0-2
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/binutils-common@2.38-3
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/libbinutils@2.38-3 > binutils/binutils-common@2.38-3
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/binutils-x86-64-linux-gnu@2.38-3 > binutils/binutils-common@2.38-3
+  and 8 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-BINUTILS-404139
+  Introduced through: dpkg/dpkg-dev@1.21.2, gcc-defaults/g++@4:11.2.0-2
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/binutils-common@2.38-3
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/libbinutils@2.38-3 > binutils/binutils-common@2.38-3
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/binutils-x86-64-linux-gnu@2.38-3 > binutils/binutils-common@2.38-3
+  and 8 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-BINUTILS-404151
+  Introduced through: dpkg/dpkg-dev@1.21.2, gcc-defaults/g++@4:11.2.0-2
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/binutils-common@2.38-3
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/libbinutils@2.38-3 > binutils/binutils-common@2.38-3
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/binutils-x86-64-linux-gnu@2.38-3 > binutils/binutils-common@2.38-3
+  and 8 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Uncontrolled Recursion
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-BINUTILS-404195
+  Introduced through: dpkg/dpkg-dev@1.21.2, gcc-defaults/g++@4:11.2.0-2
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/binutils-common@2.38-3
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/libbinutils@2.38-3 > binutils/binutils-common@2.38-3
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/binutils-x86-64-linux-gnu@2.38-3 > binutils/binutils-common@2.38-3
+  and 8 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Allocation of Resources Without Limits or Throttling
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-BINUTILS-404223
+  Introduced through: dpkg/dpkg-dev@1.21.2, gcc-defaults/g++@4:11.2.0-2
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/binutils-common@2.38-3
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/libbinutils@2.38-3 > binutils/binutils-common@2.38-3
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/binutils-x86-64-linux-gnu@2.38-3 > binutils/binutils-common@2.38-3
+  and 8 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-BINUTILS-455456
+  Introduced through: dpkg/dpkg-dev@1.21.2, gcc-defaults/g++@4:11.2.0-2
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/binutils-common@2.38-3
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/libbinutils@2.38-3 > binutils/binutils-common@2.38-3
+  From: dpkg/dpkg-dev@1.21.2 > binutils@2.38-3 > binutils/binutils-x86-64-linux-gnu@2.38-3 > binutils/binutils-common@2.38-3
+  and 8 more...
+
+✗ Low severity vulnerability found in apt/libapt-pkg6.0
+  Description: Improper Verification of Cryptographic Signature
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-APT-407503
+  Introduced through: apt/libapt-pkg6.0@2.4.0, apt@2.4.0
+  From: apt/libapt-pkg6.0@2.4.0
+  From: apt@2.4.0 > apt/libapt-pkg6.0@2.4.0
+  From: apt@2.4.0
+
+✗ Low severity vulnerability found in apache2/apache2-bin
+  Description: CVE-2022-22719
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-APACHE2-2422332
+  Introduced through: apache2@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-bin@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-data@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-utils@2.4.52-1
+  and 1 more...
+
+✗ Low severity vulnerability found in apache2/apache2-bin
+  Description: CVE-2022-23943
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-APACHE2-2422346
+  Introduced through: apache2@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-bin@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-data@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-utils@2.4.52-1
+  and 1 more...
+
+✗ Low severity vulnerability found in apache2/apache2-bin
+  Description: CVE-2022-22721
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-APACHE2-2422347
+  Introduced through: apache2@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-bin@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-data@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-utils@2.4.52-1
+  and 1 more...
+
+✗ Low severity vulnerability found in apache2/apache2-bin
+  Description: CVE-2022-22720
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-APACHE2-2422349
+  Introduced through: apache2@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-bin@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-data@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-utils@2.4.52-1
+  and 1 more...
+
+✗ Low severity vulnerability found in apache2/apache2-bin
+  Description: Arbitrary Code Injection
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-APACHE2-391439
+  Introduced through: apache2@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-bin@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-data@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-utils@2.4.52-1
+  and 1 more...
+
+✗ Low severity vulnerability found in apache2/apache2-bin
+  Description: Session Fixation
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-APACHE2-391451
+  Introduced through: apache2@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-bin@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-data@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-utils@2.4.52-1
+  and 1 more...
+
+✗ Low severity vulnerability found in apache2/apache2-bin
+  Description: Resource Exhaustion
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-APACHE2-391523
+  Introduced through: apache2@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-bin@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-data@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-utils@2.4.52-1
+  and 1 more...
+
+✗ Low severity vulnerability found in apache2/apache2-bin
+  Description: Arbitrary Code Injection
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-APACHE2-391539
+  Introduced through: apache2@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-bin@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-data@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-utils@2.4.52-1
+  and 1 more...
+
+✗ Low severity vulnerability found in apache2/apache2-bin
+  Description: Numeric Errors
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-APACHE2-391575
+  Introduced through: apache2@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-bin@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-data@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-utils@2.4.52-1
+  and 1 more...
+
+✗ Low severity vulnerability found in apache2/apache2-bin
+  Description: CVE-2003-1307
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-APACHE2-391698
+  Introduced through: apache2@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-bin@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-data@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-utils@2.4.52-1
+  and 1 more...
+
+✗ Low severity vulnerability found in apache2/apache2-bin
+  Description: CVE-2007-1743
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-APACHE2-391734
+  Introduced through: apache2@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-bin@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-data@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-utils@2.4.52-1
+  and 1 more...
+
+✗ Low severity vulnerability found in apache2/apache2-bin
+  Description: Cross-site Scripting (XSS)
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-APACHE2-391822
+  Introduced through: apache2@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-bin@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-data@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-utils@2.4.52-1
+  and 1 more...
+
+✗ Medium severity vulnerability found in sqlite3/libsqlite3-0
+  Description: Memory Leak
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-SQLITE3-2407040
+  Introduced through: sqlite3/libsqlite3-0@3.38.1-1, apache2@2.4.52-1
+  From: sqlite3/libsqlite3-0@3.38.1-1
+  From: apache2@2.4.52-1 > apache2/apache2-bin@2.4.52-1 > apr-util/libaprutil1-dbd-sqlite3@1.6.1-5+b1 > sqlite3/libsqlite3-0@3.38.1-1
+
+✗ Medium severity vulnerability found in lua5.3/liblua5.3-0
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-LUA53-1914020
+  Introduced through: apache2@2.4.52-1
+  From: apache2@2.4.52-1 > apache2/apache2-bin@2.4.52-1 > lua5.3/liblua5.3-0@5.3.6-1
+
+✗ Medium severity vulnerability found in libde265/libde265-0
+  Description: Buffer Overflow
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-LIBDE265-1585956
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > libheif/libheif1@1.12.0-2+b3 > libde265/libde265-0@1.0.8-1
+
+✗ Medium severity vulnerability found in libde265/libde265-0
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-LIBDE265-1585958
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > libheif/libheif1@1.12.0-2+b3 > libde265/libde265-0@1.0.8-1
+
+✗ Medium severity vulnerability found in libde265/libde265-0
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-LIBDE265-1585974
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > libheif/libheif1@1.12.0-2+b3 > libde265/libde265-0@1.0.8-1
+
+✗ Medium severity vulnerability found in libde265/libde265-0
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-LIBDE265-1585975
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > libheif/libheif1@1.12.0-2+b3 > libde265/libde265-0@1.0.8-1
+
+✗ Medium severity vulnerability found in libde265/libde265-0
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-LIBDE265-1585981
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > libheif/libheif1@1.12.0-2+b3 > libde265/libde265-0@1.0.8-1
+
+✗ Medium severity vulnerability found in libde265/libde265-0
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-LIBDE265-1585983
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > libheif/libheif1@1.12.0-2+b3 > libde265/libde265-0@1.0.8-1
+
+✗ Medium severity vulnerability found in libde265/libde265-0
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-LIBDE265-1585985
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > libheif/libheif1@1.12.0-2+b3 > libde265/libde265-0@1.0.8-1
+
+✗ Medium severity vulnerability found in libde265/libde265-0
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-LIBDE265-1585987
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > libheif/libheif1@1.12.0-2+b3 > libde265/libde265-0@1.0.8-1
+
+✗ Medium severity vulnerability found in libde265/libde265-0
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-LIBDE265-1585988
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > libheif/libheif1@1.12.0-2+b3 > libde265/libde265-0@1.0.8-1
+
+✗ Medium severity vulnerability found in libde265/libde265-0
+  Description: CVE-2020-21605
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-LIBDE265-1585990
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > libheif/libheif1@1.12.0-2+b3 > libde265/libde265-0@1.0.8-1
+
+✗ Medium severity vulnerability found in libde265/libde265-0
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-LIBDE265-1585998
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > libheif/libheif1@1.12.0-2+b3 > libde265/libde265-0@1.0.8-1
+
+✗ Medium severity vulnerability found in libde265/libde265-0
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-LIBDE265-1586013
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > libheif/libheif1@1.12.0-2+b3 > libde265/libde265-0@1.0.8-1
+
+✗ Medium severity vulnerability found in libde265/libde265-0
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-LIBDE265-2359221
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > libheif/libheif1@1.12.0-2+b3 > libde265/libde265-0@1.0.8-1
+
+✗ Medium severity vulnerability found in libde265/libde265-0
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-LIBDE265-2359222
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > libheif/libheif1@1.12.0-2+b3 > libde265/libde265-0@1.0.8-1
+
+✗ Medium severity vulnerability found in libde265/libde265-0
+  Description: CVE-2021-36411
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-LIBDE265-2359234
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > libheif/libheif1@1.12.0-2+b3 > libde265/libde265-0@1.0.8-1
+
+✗ Medium severity vulnerability found in libde265/libde265-0
+  Description: CVE-2021-35452
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-LIBDE265-2359239
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > libheif/libheif1@1.12.0-2+b3 > libde265/libde265-0@1.0.8-1
+
+✗ Medium severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Divide By Zero
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-IMAGEMAGICK-1075501
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  and 2 more...
+
+✗ Medium severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Divide By Zero
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-IMAGEMAGICK-1075504
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  and 2 more...
+
+✗ Medium severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Divide By Zero
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-IMAGEMAGICK-1075509
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  and 2 more...
+
+✗ Medium severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Divide By Zero
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-IMAGEMAGICK-1078458
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  and 2 more...
+
+✗ Medium severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Divide By Zero
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-IMAGEMAGICK-1085780
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  and 2 more...
+
+✗ Medium severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Exposure of Resource to Wrong Sphere
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-IMAGEMAGICK-1584528
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  and 2 more...
+
+✗ Medium severity vulnerability found in avahi/libavahi-common-data
+  Description: Loop with Unreachable Exit Condition ('Infinite Loop')
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-AVAHI-1089436
+  Introduced through: ghostscript@9.55.0~dfsg-3
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > cups/libcups2@2.4.1op1-2 > avahi/libavahi-client3@0.8-5 > avahi/libavahi-common3@0.8-5 > avahi/libavahi-common-data@0.8-5
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > cups/libcups2@2.4.1op1-2 > avahi/libavahi-common3@0.8-5
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > cups/libcups2@2.4.1op1-2 > avahi/libavahi-client3@0.8-5 > avahi/libavahi-common3@0.8-5
+  and 1 more...
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ Medium severity vulnerability found in avahi/libavahi-common-data
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-AVAHI-1247787
+  Introduced through: ghostscript@9.55.0~dfsg-3
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > cups/libcups2@2.4.1op1-2 > avahi/libavahi-client3@0.8-5 > avahi/libavahi-common3@0.8-5 > avahi/libavahi-common-data@0.8-5
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > cups/libcups2@2.4.1op1-2 > avahi/libavahi-common3@0.8-5
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > cups/libcups2@2.4.1op1-2 > avahi/libavahi-client3@0.8-5 > avahi/libavahi-common3@0.8-5
+  and 1 more...
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ High severity vulnerability found in perl/perl-modules-5.34
+  Description: Improper Verification of Cryptographic Signature
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-PERL-1925974
+  Introduced through: apache2@2.4.52-1, autoconf@2.71-2, meta-common-packages@meta
+  From: apache2@2.4.52-1 > mime-support@3.66 > mailcap@3.70+nmu1 > perl@5.34.0-3 > perl/perl-modules-5.34@5.34.0-3
+  From: apache2@2.4.52-1 > mime-support@3.66 > mailcap@3.70+nmu1 > perl@5.34.0-3 > perl/libperl5.34@5.34.0-3 > perl/perl-modules-5.34@5.34.0-3
+  From: apache2@2.4.52-1 > mime-support@3.66 > mailcap@3.70+nmu1 > perl@5.34.0-3 > perl/libperl5.34@5.34.0-3
+  and 3 more...
+
+✗ High severity vulnerability found in openjpeg2/libopenjp2-7
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENJPEG2-1301278
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, ghostscript@9.55.0~dfsg-3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > openjpeg2/libopenjp2-7@2.4.0-6
+  From: ghostscript@9.55.0~dfsg-3 > ghostscript/libgs9@9.55.0~dfsg-3 > openjpeg2/libopenjp2-7@2.4.0-6
+  Image layer: 'apt-get install -y --no-install-recommends ghostscript'
+
+✗ High severity vulnerability found in libheif/libheif1
+  Description: Buffer Overflow
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-LIBHEIF-1910707
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > libheif/libheif1@1.12.0-2+b3
+
+✗ High severity vulnerability found in libde265/libde265-0
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-LIBDE265-1586000
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > libheif/libheif1@1.12.0-2+b3 > libde265/libde265-0@1.0.8-1
+
+✗ High severity vulnerability found in libde265/libde265-0
+  Description: Reachable Assertion
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-LIBDE265-2359236
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > libheif/libheif1@1.12.0-2+b3 > libde265/libde265-0@1.0.8-1
+
+✗ High severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Divide By Zero
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-IMAGEMAGICK-1244102
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  and 2 more...
+
+✗ High severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-IMAGEMAGICK-1246264
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  and 2 more...
+
+✗ High severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-DEBIANUNSTABLE-IMAGEMAGICK-1246514
+  Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2, imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3+b2 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3+b2
+  and 2 more...
+
+
+
+Organization:      iwdiwd
+Package manager:   deb
+Project name:      docker-image|wordpressharden
+Docker image:      wordpressharden:latest
+Platform:          linux/amd64
+Licenses:          enabled
+
+Tested 242 dependencies for known issues, found 135 issues.
+
+-------------------------------------------------------
+
+Testing wordpressharden:latest...
+
+Organization:      iwdiwd
+Package manager:   npm
+Target file:       /usr/src/wordpress/wp-content/themes/twentytwenty/package.json
+Project name:      twentytwenty
+Docker image:      wordpressharden:latest
+Licenses:          enabled
+
+✔ Tested wordpressharden:latest for known issues, no vulnerable paths found.
+
+-------------------------------------------------------
+
+Testing wordpressharden:latest...
+
+Organization:      iwdiwd
+Package manager:   npm
+Target file:       /usr/src/wordpress/wp-content/themes/twentytwentyone/package.json
+Project name:      twentytwentyone
+Docker image:      wordpressharden:latest
+Licenses:          enabled
+
+✔ Tested wordpressharden:latest for known issues, no vulnerable paths found.
+
+
+Tested 3 projects, 1 contained vulnerable paths.
+
+
+
