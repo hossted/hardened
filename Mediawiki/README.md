@@ -10,6 +10,20 @@
   
   - php.zip : the hardened image of php 
 
+How to run Dockerfile : 
+
+#go into Edited Dockerfile directory
+
+```$ mediawiki-docker/1.37/apache/```
+
+#build the Docker image
+
+```$ sudo docker build -t imagename:latest . ```
+
+#PS: make sure to run the PHP Dockerfile.
+
+#########################################################################
+
 Mediawiki Download and run :
 
 #Pull the patched mediawiki image : 
